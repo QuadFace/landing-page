@@ -128,7 +128,12 @@ ul, li {
 .trans-bg {
   position: relative;
   background: rgba(0, 167, 221, 0.70);
-  padding: 120px 0;
+  padding-top: 120px; 
+  padding-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-height: 250px;
+
 }
 
 ::-moz-selection { background: #A9D0F5; color: #5F5A5A }
@@ -534,7 +539,7 @@ header .app li {
   position: relative;
 }
 .banner {
-  background: url(../images/slider/slide-1.jpg) no-repeat fixed;
+  background: url(../images/demo/demo1.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -706,7 +711,7 @@ section.banner-carousel {
 }
 h2 {
   font-weight: 800;  
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   color: #fff;
 }
 h3 {
@@ -746,7 +751,7 @@ h3 {
 */
 
 .feature {
-  background: url(../images/feature_bg.jpg) no-repeat fixed;
+  background: url(../images/demo/demo1.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -825,7 +830,7 @@ h3 {
 
 section.description {
   padding-top: 120px;
-  padding-bottom: 0;
+  padding-bottom: 100px;
 }
 .description-list li {
   font-size: 20px;
@@ -850,10 +855,13 @@ section.description {
 */
 
 section.video {
-  padding: 0 0;
+  padding-top: 0px;
+  padding-left: 0px; 
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 .video {
-  background: url(../images/video_bg.jpg) no-repeat fixed;
+  background: url(../images/demo/demo1.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -862,7 +870,7 @@ section.video {
   height: 500px;
 }
 .video-mask {
-  padding: 80px 0;
+  padding: 0px;
 }
 .play {
   background: #fff url(../images/play-btn.png) no-repeat 60% 50%;
@@ -909,7 +917,7 @@ section.video {
 .video-container{
   position:relative;
   padding-bottom:54.25%;
-  padding-top:30px;
+  padding-top:50px;
   height:0;
   overflow:hidden;
   margin-top: -130px;
@@ -1017,7 +1025,7 @@ section.video {
 */
 
 .review {
-  background: url(../images/reviews_bg.jpg) no-repeat fixed;
+  background: url(../images/demo/demo1.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1294,7 +1302,7 @@ section.video {
 */
 
 .subscription {
-  background: url(../images/subscription_bg.jpg) no-repeat fixed;
+  background: url(../images/demo/demo1.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1518,7 +1526,7 @@ section.contact > .container {
 */
 
 #footer {
-  background: url(../images/footer_bg.jpg) no-repeat fixed;
+  background: url(../images/demo/demo1.png) no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
