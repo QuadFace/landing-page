@@ -73,6 +73,7 @@ ul, li {
 }
 .white {
   background: #fff;
+  background: url(../images/demo/quadcopter.jpg) no-repeat fixed;
 }
 .sub-head {
   display: block;
@@ -132,7 +133,7 @@ ul, li {
   padding-bottom: 60px;
   padding-left: 0px;
   padding-right: 0px;
-  min-height: 250px;
+  min-height: 100px;
 
 }
 
@@ -544,6 +545,7 @@ header .app li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 100px;
 }
 section.banner-carousel {
   padding-top: 0px;
@@ -940,6 +942,7 @@ section.video {
 */
 .screenshot {
   padding: 120px 0;
+  background: url(../images/demo/quadcopter.jpg) no-repeat fixed;
 }
 .owl-theme .owl-controls {
   top: 40%;
